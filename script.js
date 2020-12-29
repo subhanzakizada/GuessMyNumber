@@ -58,7 +58,7 @@ function againBtnHandler() {
     score = 10
     updateScoreUI(score)
     secretNumberUI.textContent = '?'
-    displayMessage('Start guessing...')
+    displayMessage('Start guessing....')
     document.querySelector('.guess').value = ''
     continuePlay = true
     gameIsPlaying = true
